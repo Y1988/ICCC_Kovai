@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Reflection.Emit;
+using System.Reflection.Metadata.Ecma335;
 
 namespace ICCC.UTI.DATA.Repositories
 {
@@ -19,6 +20,18 @@ namespace ICCC.UTI.DATA.Repositories
 
             return SqlHelper.ExtecuteProcedureReturnData<List<UserDetailsEntity>>(ConnectionString,
                 "GetUsers", r => r.TranslateAsUsersList());
+        }
+        public List<UserDetailsEntity> GetActiveUsers(string ConnectionString)
+        {
+
+            return SqlHelper.ExtecuteProcedureReturnData<List<UserDetailsEntity>>(ConnectionString,
+                "GetActiveUsers", r => r.TranslateAsUsersList());
+        }
+        public List<UserDetailsEntity> GetInActiveUsers(string ConnectionString)
+        {
+
+            return SqlHelper.ExtecuteProcedureReturnData<List<UserDetailsEntity>>(ConnectionString,
+                "GetInActiveUsers", r => r.TranslateAsUsersList());
         }
 
         public string SaveUser(UserDetailsEntity model, string ConnectionString)
@@ -55,6 +68,21 @@ namespace ICCC.UTI.DATA.Repositories
             };
             SqlHelper.ExecuteProcedureReturnString(ConnectionString, "SaveUser", param);
             return (string)outParam.Value;
+        }
+
+        public List<UserDetailsEntity> ActivateUser(int UserID, string ConnectionString,out string ReturnCode)
+        {
+            var outParam = new SqlParameter("@ReturnCode", SqlDbType.NVarChar, 20)
+            {
+                Direction = ParameterDirection.Output
+            };
+            SqlParameter[] param = {
+                new SqlParameter("@UserId",UserID),
+                outParam
+            };
+            var data= SqlHelper.ExtecuteProcedureReturnData<List<UserDetailsEntity>>(ConnectionString, "ActivateUser", r => r.TranslateAsUsersList(), param);
+            ReturnCode = (string)outParam.Value;
+            return data;
         }
 
         public string DeleteUser(int id, string ConnectionString)

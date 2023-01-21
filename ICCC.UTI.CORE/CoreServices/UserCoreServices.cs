@@ -28,6 +28,19 @@ namespace ICCC.UTI.CORE.CoreServices
 
         }
 
+        public List<UserDetailsCoreEntity> GetActiveUsers(string ConnectionString)
+        {
+            var Data = TranslateCoreUsersList(DbClientFactory<UserDbClient>.Instance.GetActiveUsers(ConnectionString));
+            return Data;
+
+        }
+        public List<UserDetailsCoreEntity> GetInActiveUsers(string ConnectionString)
+        {
+            var Data = TranslateCoreUsersList(DbClientFactory<UserDbClient>.Instance.GetInActiveUsers(ConnectionString));
+            return Data;
+
+        }
+
         public string MappingUserandRole(MappingRoleAndUserCoreEntity model, string ConnectionString)
         {
             var data = DbClientFactory<UserDbClient>.Instance.MappingUserandRole(TranslateUsersandRoleList(model), ConnectionString);
@@ -45,6 +58,14 @@ namespace ICCC.UTI.CORE.CoreServices
         public string SaveUser(UserDetailsCoreEntity model, string ConnectionString)
         {
             var data = DbClientFactory<UserDbClient>.Instance.SaveUser(TranslateUsersList(model), ConnectionString);
+            return data;
+
+        }
+
+        public List<UserDetailsCoreEntity> ActivateUser(int UserID, string ConnectionString,out string ReturnCode)
+        {
+            var data = TranslateCoreUsersList(DbClientFactory<UserDbClient>.Instance.ActivateUser(UserID, ConnectionString,out ReturnCode));
+            ReturnCode = ReturnCode;
             return data;
 
         }

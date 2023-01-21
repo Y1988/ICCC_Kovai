@@ -43,7 +43,8 @@ namespace ICCC.UTI
             services.AddScoped<ILoggerManager, LoggerManager>();
             services.AddScoped<IUser, UserDbClient>();
             services.AddScoped<IUserCore, UserCoreServices>();
-            services.Configure<MySettingsEntity>(Configuration.GetSection("ConnectionStrings"));
+            services.Configure<MySettingsEntity>(Configuration.GetSection("Confiqurations"));
+            services.Configure<MySMTPSettingsEntity>(Configuration.GetSection("SMTP"));
             services.AddScoped<IRoleCore, RoleCoreServices>();
             services.AddScoped<IRole,RoleDbClient>();
             services.AddScoped<IMenuCore, MenuCoreServices>();
