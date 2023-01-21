@@ -1,0 +1,13 @@
+F:\ICCC-UTI-PORTAL\code\Middleware\ICCC.UTI\ICCC.UTI.DATA\bin\Release\netcoreapp3.1\ICCC.UTI.DATA.deps.json
+F:\ICCC-UTI-PORTAL\code\Middleware\ICCC.UTI\ICCC.UTI.DATA\bin\Release\netcoreapp3.1\ICCC.UTI.DATA.dll
+F:\ICCC-UTI-PORTAL\code\Middleware\ICCC.UTI\ICCC.UTI.DATA\bin\Release\netcoreapp3.1\ICCC.UTI.DATA.pdb
+F:\ICCC-UTI-PORTAL\code\Middleware\ICCC.UTI\ICCC.UTI.DATA\bin\Release\netcoreapp3.1\ICCC.UTI.LOGGER.dll
+F:\ICCC-UTI-PORTAL\code\Middleware\ICCC.UTI\ICCC.UTI.DATA\bin\Release\netcoreapp3.1\ICCC.UTI.LOGGER.pdb
+F:\ICCC-UTI-PORTAL\code\Middleware\ICCC.UTI\ICCC.UTI.DATA\obj\Release\netcoreapp3.1\ICCC.UTI.DATA.csproj.AssemblyReference.cache
+F:\ICCC-UTI-PORTAL\code\Middleware\ICCC.UTI\ICCC.UTI.DATA\obj\Release\netcoreapp3.1\ICCC.UTI.DATA.GeneratedMSBuildEditorConfig.editorconfig
+F:\ICCC-UTI-PORTAL\code\Middleware\ICCC.UTI\ICCC.UTI.DATA\obj\Release\netcoreapp3.1\ICCC.UTI.DATA.AssemblyInfoInputs.cache
+F:\ICCC-UTI-PORTAL\code\Middleware\ICCC.UTI\ICCC.UTI.DATA\obj\Release\netcoreapp3.1\ICCC.UTI.DATA.AssemblyInfo.cs
+F:\ICCC-UTI-PORTAL\code\Middleware\ICCC.UTI\ICCC.UTI.DATA\obj\Release\netcoreapp3.1\ICCC.UTI.DATA.csproj.CoreCompileInputs.cache
+F:\ICCC-UTI-PORTAL\code\Middleware\ICCC.UTI\ICCC.UTI.DATA\obj\Release\netcoreapp3.1\ICCC.UTI.DATA.csproj.CopyComplete
+F:\ICCC-UTI-PORTAL\code\Middleware\ICCC.UTI\ICCC.UTI.DATA\obj\Release\netcoreapp3.1\ICCC.UTI.DATA.dll
+F:\ICCC-UTI-PORTAL\code\Middleware\ICCC.UTI\ICCC.UTI.DATA\obj\Release\netcoreapp3.1\ICCC.UTI.DATA.pdb

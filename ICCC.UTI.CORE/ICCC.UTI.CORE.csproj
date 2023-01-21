@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ICCC.UTI.DATA\ICCC.UTI.DATA.csproj" />
+    <ProjectReference Include="..\ICCC.UTI.LOGGER\ICCC.UTI.LOGGER.csproj" />
+  </ItemGroup>
+
+</Project>

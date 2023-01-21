@@ -1,0 +1,10 @@
+F:\ICCC-UTI-PORTAL\code\Middleware\ICCC.UTI\ICCC.UTI.LOGGER\bin\Debug\netcoreapp3.1\ICCC.UTI.LOGGER.deps.json
+F:\ICCC-UTI-PORTAL\code\Middleware\ICCC.UTI\ICCC.UTI.LOGGER\bin\Debug\netcoreapp3.1\ICCC.UTI.LOGGER.dll
+F:\ICCC-UTI-PORTAL\code\Middleware\ICCC.UTI\ICCC.UTI.LOGGER\bin\Debug\netcoreapp3.1\ICCC.UTI.LOGGER.pdb
+F:\ICCC-UTI-PORTAL\code\Middleware\ICCC.UTI\ICCC.UTI.LOGGER\obj\Debug\netcoreapp3.1\ICCC.UTI.LOGGER.csproj.AssemblyReference.cache
+F:\ICCC-UTI-PORTAL\code\Middleware\ICCC.UTI\ICCC.UTI.LOGGER\obj\Debug\netcoreapp3.1\ICCC.UTI.LOGGER.GeneratedMSBuildEditorConfig.editorconfig
+F:\ICCC-UTI-PORTAL\code\Middleware\ICCC.UTI\ICCC.UTI.LOGGER\obj\Debug\netcoreapp3.1\ICCC.UTI.LOGGER.AssemblyInfoInputs.cache
+F:\ICCC-UTI-PORTAL\code\Middleware\ICCC.UTI\ICCC.UTI.LOGGER\obj\Debug\netcoreapp3.1\ICCC.UTI.LOGGER.AssemblyInfo.cs
+F:\ICCC-UTI-PORTAL\code\Middleware\ICCC.UTI\ICCC.UTI.LOGGER\obj\Debug\netcoreapp3.1\ICCC.UTI.LOGGER.csproj.CoreCompileInputs.cache
+F:\ICCC-UTI-PORTAL\code\Middleware\ICCC.UTI\ICCC.UTI.LOGGER\obj\Debug\netcoreapp3.1\ICCC.UTI.LOGGER.dll
+F:\ICCC-UTI-PORTAL\code\Middleware\ICCC.UTI\ICCC.UTI.LOGGER\obj\Debug\netcoreapp3.1\ICCC.UTI.LOGGER.pdb
